@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather|Montserrat|Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+
+body {
+  font-family: 'Roboto', 'Lato';
+  font-size: 16px;
+  font-weight: normal;
+  background: #fff;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.primary-text {
+  background: #e41655;
+  color: #fff;
+}
+
+header {
+  background: #ffffff;
+}
+
+header .container {
+  width: 80%;
+  background: #0e3150;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#branding {
+  background: #a3f7bf;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#branding .logo {
+  display: inline-block;
+  position: absolute;
+  left: 180px;
+  top: 1px;
+}
+
+#branding h1 {
+  font-family: 'Montserrat', 'Merriweather';
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+#branding a {
+  color: #000;
+}
+
+#branding nav {
+  background: blu;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 185px;
+  margin: 2px auto;
+  text-align: left;
+}
+
+#branding ul {
+  display: block;
+}
+
+#branding ul li {
+  float: left;
+  padding: 10px;
+  border: ;
+}
+
+#branding ul li a {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 5%;
+}
+
+/*css showcase  */
+#showcase {
+  background: #0e3150 url('./img/project.jpg')no-repeat center center/cover;
+  opacity: ;
+  font-family: 'lato';
+  color: #fff;
+  border-top: 1px solid white;
+}
+
+#showcase .container {
+  width: 80%;
+  height: 500px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#showcase .container h1 {
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  font-size: 32px;
+  background: #b80257;
+  width: 70%;
+  opacity: ;
+}
+
+#showcase .container p {
+  position: absolute;
+  top: 350px;
+  right: 350px;
+  width: 50%;
+  font-size: 22px;
+  font-family: 'Merriweather';
+  color: white;
+}
+
+#showcase .btn {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  top: 480px;
+  right: 750px;
+}
+
+#newsletter {
+  background: #333;
+  margin: 0 auto;
+  /* text-align: center; */
+  /* color: #fff; */
+  font-family: 'lato';
+
+}
+#newsletter .container {
+  width: 80%;
+  height: 50px;
+  margin: 0px auto;
+  text-align: center;
+  background: #233142;
+}
+#newsletter .container h1 {
+  float: left;
+  margin:10px auto;
+  text-align: center;
+  padding: 0 1rem;
+  color: #fff;
+  box-sizing: border-box;
+}
+#newsletter .container input {
+  margin: 10px auto;
+  display: inline-block;
+  position: absolute;
+  right: 300px;
+  text-align: center;
+  top:560px;
+  width: 220px;
+  height: 25px;
+}
+#newsletter .container .btn{
+  margin: 11px auto;
+  display: inline-block;
+  position: absolute;
+  right: 230px;
+  text-align: center;
+  top:560px;
+  width: 65px;
+  height: 26px;
+  background: #e41655;
+  color: #fff;
+}
+.clr{
+  clear: both;
+}
+#boxes {
+
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'roboto';
+}
+#boxes .container {
+  width: 80%;
+  background: #fdfdfd;
+  margin: auto;
+}
+#boxes .box {
+  border: 1px solid black;
+  width:25%;
+  height:250px;
+  margin: 10px;
+  background: #c9d6df;
+  box-sizing: border-box;
+}
+#boxes .box2{
+  border: 1px solid black;
+  width:20%;
+  height:250px;
+  margin: 8px auto;
+  position: absolute;
+  right: 170px;
+  top:610px;
+  box-sizing: border-box;
+}
+#boxes .box3{
+  border: 1px solid black;
+  width:20%;
+  height:250px;
+  margin: 10px auto;
+  position: absolute;
+  right: 660px;
+  top:610px;
+  box-sizing: border-box;
+}
+#boxes .box4 {
+  border: 1px solid black;
+  width:25%;
+  height:250px;
+  margin: 16px auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+#main-footer {
+  background: #333;
+  color: #fdfdfd;
+  margin: 0 auto;
+  text-align: center;
+  height: 50px;
+}
+
+#main-footer p {
+  padding: 10px;
+  letter-spacing: 1px;
+}
